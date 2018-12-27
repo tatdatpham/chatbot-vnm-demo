@@ -1,16 +1,16 @@
 {
-  "name": "Chatbot VNM",
+  "name": "chatbot-demo",
   "version": "0.1",
   "description": "Chatbot VNM",
   "main": "server.js",
-  "repository": "",
+  "repository": "chatbot-vnm-demo",
   "author": "Tat Dat Pham <tatdat171@gmail.com>",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "^1.15.1",
-    "express": "~3.2.4",
+    "express": ">=3.11.0",
     "morgan": "^1.7.0",
     "request": "^2.72.0"
   }
