@@ -1,6 +1,6 @@
 {
   "name": "chatbot-demo",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "Chatbot VNM",
   "main": "server.js",
   "repository": "chatbot-vnm-demo",
@@ -9,9 +9,15 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "body-parser": "^1.15.1",
-    "express": ">=3.11.0",
-    "morgan": "^1.7.0",
-    "request": "^2.72.0"
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
   }
 }
